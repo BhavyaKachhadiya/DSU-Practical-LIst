@@ -1,4 +1,6 @@
-// enter 2 num and find their sum & avg.
+//Name: Bhavya Kachhadiya
+
+//Eroll. No.: 220130318020 
 #include <iostream>
 using namespace std;
 int main ()
