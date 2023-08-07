@@ -1,6 +1,3 @@
-//Name: Bhavya Kachhadiya
-
-//Eroll. No.: 220130318020 
 #include <stdio.h>
 
 int main() {
@@ -21,6 +18,7 @@ int main() {
       printf("%d ", arr[i]);
     }
   }
-
+  printf("This code was created by bhavya Kachhadiya.");
+  printf("Erollment number: 220130318020");
   return 0;
 }

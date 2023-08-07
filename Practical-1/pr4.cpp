@@ -1,6 +1,3 @@
-//Name: Bhavya Kachhadiya
-
-//Eroll. No.: 220130318020 
 #include <iostream>
 
 using namespace std;
@@ -12,6 +9,7 @@ int main() {
   cin >> name;
 
   cout << "Your name is: " << name << endl;
-
+cout << "This code was created by Bhavya Kachhadiya." << endl;
+  cout << "Erollment number: 220130318020" << endl;
   return 0;
 }

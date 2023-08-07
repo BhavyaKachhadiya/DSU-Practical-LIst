@@ -1,6 +1,3 @@
-//Name: Bhavya Kachhadiya
-
-//Eroll. No.: 220130318020 
 #include <iostream>
 
 using namespace std;
@@ -23,6 +20,7 @@ int main() {
   int sum = sum_of_first_n_natural_numbers(n);
 
   cout << "The sum of first " << n << " natural numbers is: " << sum << endl;
-
+cout << "This code was created by Bhavya Kachhadiya." << endl;
+  cout << "Erollment number: 220130318020" << endl;
   return 0;
 }

@@ -1,6 +1,3 @@
-//Name: Bhavya Kachhadiya
-
-//Eroll. No.: 220130318020 
 #include <iostream>
 using namespace std;
 int main ()
@@ -12,5 +9,6 @@ int main ()
     cin>>bre;
     cout<<"Area :: "<<(len*bre)<<"\n";
     cout<<"Perimeter :: "<<2*(len+bre);
-    
+    cout << "This code was created by Bhavya Kachhadiya." << endl;
+  cout << "Erollment number: 220130318020" << endl;
 }

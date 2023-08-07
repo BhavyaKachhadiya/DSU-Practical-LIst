@@ -1,6 +1,3 @@
-//Name: Bhavya Kachhadiya
-
-//Eroll. No.: 220130318020 
 #include <iostream>
 
 using namespace std;
@@ -24,6 +21,7 @@ int main() {
   int factorial_of_number = factorial(number);
 
   cout << "The factorial of " << number << " is " << factorial_of_number << endl;
-
+cout << "This code was created by Bhavya Kachhadiya." << endl;
+  cout << "Erollment number: 220130318020" << endl;
   return 0;
 }

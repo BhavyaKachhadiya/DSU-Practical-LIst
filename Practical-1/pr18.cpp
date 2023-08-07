@@ -1,6 +1,3 @@
-//Name: Bhavya Kachhadiya
-
-//Eroll. No.: 220130318020 
 #include <iostream>
 
 using namespace std;
@@ -27,6 +24,7 @@ int main() {
   int power_of_number = power(base, exponent);
 
   cout << "The power of " << base << " ^ " << exponent << " is " << power_of_number << endl;
-
+cout << "This code was created by Bhavya Kachhadiya." << endl;
+  cout << "Erollment number: 220130318020" << endl;
   return 0;
 }
