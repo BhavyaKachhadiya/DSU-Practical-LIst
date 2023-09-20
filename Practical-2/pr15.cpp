@@ -12,4 +12,6 @@ int main()
     cin>>n;
     ans =  square(n);   
     cout<<"square of "<<n<<" is "<< ans; 
+    cout << "This code was created by Bhavya Kachhadiya." << endl;
+  cout << "Erollment number: 220130318020" << endl;
 }

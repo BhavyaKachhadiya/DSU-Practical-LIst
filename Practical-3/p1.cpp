@@ -24,4 +24,6 @@ int main()
 	cout<<endl<<"Name :: "<<s1.name<<endl;
 		cout<<"Standard :: "<<s1.std<<endl;
 		cout<<"Percentage :: "<<s1.percentage<<"%"<<endl;
+		cout << "This code was created by Bhavya Kachhadiya." << endl;
+  cout << "Erollment number: 220130318020" << endl;
 }
