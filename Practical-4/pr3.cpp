@@ -16,22 +16,21 @@ class Student
 };
 int main()
 {
-    Student s[10];
-    for (int i = 0; i < 10; i++)
+    Student s[3];
+    for (int i = 0; i < 3; i++)
     {
         s[i].getdata();
     }
-    int max;
-    for (int i = 0; i < 10 ; i++)
+    int max = s[0].spi;
+    for (int i = 1; i < 3; i++)
     {
-        if (s[0].spi>s[i].spi)
+        if (s[i].spi > max)
         {
-            s[0].spi=max;
+            max = s[i].spi;
         }
-        
     }
 
     cout<<"MAX :: "<<max;
-    cout << "This code was created by Bhavya Kachhadiya." << endl;
+    cout <<endl<< "This code was created by Bhavya Kachhadiya." << endl;
   cout << "Erollment number: 220130318020" << endl;
 }
