@@ -16,13 +16,13 @@ class Student
 };
 int main()
 {
-    Student s[3];
-    for (int i = 0; i < 3; i++)
+    Student s[10];
+    for (int i = 0; i < 10; i++)
     {
         s[i].getdata();
     }
     int max = s[0].spi;
-    for (int i = 1; i < 3; i++)
+    for (int i = 1; i < 10; i++)
     {
         if (s[i].spi > max)
         {
