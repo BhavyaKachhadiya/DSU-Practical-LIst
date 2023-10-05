@@ -1,18 +1,19 @@
 #include <iostream>
 using namespace std;
-class A
-{        
+class Rectangle
+{
+    private:
+        int len,bre;
     public:
-        void putdata()
+        Rectangle(int len,int bre)
         {
-            cout << "This is a Coming from Class A"<<endl;
+            cout << "Area of Rectangle :: "<<len*bre;
         }
+        
 };
-class B : public A{};
 int main()
 {
-    B b;
-    b.putdata();
+Rectangle r(3,5);
 cout <<endl<<"This code was created by Bhavya Kachhadiya." << endl;
 cout << "Erollment number: 220130318020" << endl;
 }

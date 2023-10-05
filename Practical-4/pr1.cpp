@@ -26,7 +26,7 @@ int main() {
     Employee e[10];
 
     cout << "Enter details for " << 10 << " employees:" << endl;
-    for (int i = 0; i < 10; i++) {\
+    for (int i = 0; i < 10; i++) {
         e[i].getdata();
     }
 
