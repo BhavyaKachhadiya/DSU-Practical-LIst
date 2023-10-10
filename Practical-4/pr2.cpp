@@ -1,15 +1,24 @@
 #include <iostream>
 using namespace std;
+class Count
+{
+    private:
+        static int count;
+    public:
+        static int increment()
+        {
+            count++;
+        }
 
-class Math {
-public:
-    static int add(int a, int b) {
-        return a + b;
-    }
 };
+int Count::count=0;
+int main()
+{   Count a;
+    Count::increment();
+    Count::increment();
+    Count::increment();
 
-int main() {
-    int result = Math::add(5, 3);
-    cout << "Sum: " << result << endl;
-    return 0;
+    cout<<"Count :: "<<a.increment();
+cout <<endl<<"This code was created by Bhavya Kachhadiya." << endl;
+cout << "Erollment number: 220130318020" << endl;
 }

@@ -21,15 +21,18 @@ int main()
     {
         s[i].getdata();
     }
-    int max = s[0].spi;
+    string Maxname= s[0].name;
+    float max = s[0].spi;
     for (int i = 1; i < 10; i++)
     {
         if (s[i].spi > max)
         {
             max = s[i].spi;
+            Maxname=s[i].name;
         }
     }
 
+    cout<<"Name :: "<<Maxname<<endl;
     cout<<"MAX :: "<<max;
     cout <<endl<< "This code was created by Bhavya Kachhadiya." << endl;
   cout << "Erollment number: 220130318020" << endl;
