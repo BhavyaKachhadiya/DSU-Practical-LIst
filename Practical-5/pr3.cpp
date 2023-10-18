@@ -4,24 +4,24 @@ class A
 {        
     public:
     A()
-        {
-            cout << "This is a Coming from Class A"<<endl;
-        }
+    {
+        cout << "This is a Coming from Class A"<<endl;
+    }
         
 };
-class B: public A
+class B
 {
     public:
     B()
-        {
-            cout << "This is a Coming from Class B"<<endl;
-        }
+    {
+        cout << "This is a Coming from Class B"<<endl;
+    }
 
 };
-class C: public B{};
+class C: public A,public B{};
 int main()
 {
-    C c;
+    C c;   
     cout <<endl<<"This code was created by Bhavya Kachhadiya." << endl;
     cout << "Erollment number: 220130318020" << endl;
 }
