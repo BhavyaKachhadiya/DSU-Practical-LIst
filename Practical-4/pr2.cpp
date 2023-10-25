@@ -10,6 +10,11 @@ class Count
             count++;
         }
 
+        int getCount()
+        {
+            return count;
+        }
+
 };
 int Count::count=0;
 int main()
@@ -18,7 +23,7 @@ int main()
     Count::increment();
     Count::increment();
 
-    cout<<"Count :: "<<a.increment();
+    cout<<"Count :: "<<a.getCount();
 cout <<endl<<"This code was created by Bhavya Kachhadiya." << endl;
 cout << "Erollment number: 220130318020" << endl;
 }
